@@ -1,8 +1,8 @@
 terlar/fry
-git_util
-host_info
-last_job_id
-pwd_info
-pwd_is_home
+fisherman/git_util
+fisherman/host_info
+fisherman/last_job_id
+fisherman/pwd_info
+fisherman/pwd_is_home
 robsonpeixoto/n-wrapper
 robsonpeixoto/pyenv-wrapper

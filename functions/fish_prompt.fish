@@ -71,7 +71,7 @@ function fish_prompt -d "Simple Fish Prompt"
 
     if test -n "$JAVA_HOME"
         __print_color ffffff " jvm:("
-        __print_color 007188 (echo $JAVA_HOME | cut -f 5 -d '/')
+        __print_color 007188 (echo $JAVA_HOME | cut -f 5 -d '/' | sed -e 's/^jdk//' -e 's/\.jdk$//')
         __print_color ffffff ")"
     end
 
